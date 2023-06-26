@@ -1,0 +1,93 @@
+{
+    "items": [{
+      "id": 1,
+      "name": "Dolo",
+      "price": 5,
+      "email": "dolo@gmail.com",
+      "gender": "Male",
+      "mobile": 8976987659,
+      "address": "Rajkot"
+    },
+    {
+      "id": 2,
+      "name": "Alprazolam",
+      "price": 30,
+      "email": "alprazolam@gmail.com",
+      "gender": "Female",
+      "mobile": 9870985675,
+      "address": "Ahmedabad"
+    },
+    {
+      "id": 3,
+      "name": "Naproxen",
+      "price": 55,
+      "email": "naproxen@gmail.com",
+      "gender": "Male",
+      "mobile": 9807342098,
+      "address": "Jetpur"
+    },
+    {
+      "id": 4,
+      "name": "Amlodipine",
+      "price": 50,
+      "email": "amlodipine@gmail.com",
+      "gender": "Male",
+      "mobile": 9865098739,
+      "address": "Junagadh"
+    },
+    {
+      "id": 5,
+      "name": "Azithromycin",
+      "price": 20,
+      "email": "azithromycin@gmail.com",
+      "gender": "Male",
+      "mobile": 9834509869,
+      "address": "Gondal"
+    },
+    {
+      "id": 6,
+      "name": "Lorazepam",
+      "price": 70,
+      "email": "lorazepam@gmail.com",
+      "gender": "Female",
+      "mobile": 9108796087,
+      "address": "Bombay"
+    },
+    {
+      "id": 7,
+      "name": "Omeprazole",
+      "price": 65,
+      "email": "omeprazole@gmail.com",
+      "gender": "Female",
+      "mobile": 9870869832,
+      "address": "Delhi"
+    },
+    {
+      "id": 8,
+      "name": "Amoxicillin",
+      "price": 65,
+      "email": "amoxicillin@gmail.com",
+      "gender": "Female",
+      "mobile": 9328708750,
+      "address": "Goa"
+    },
+    {
+      "id": 9,
+      "name": "Gabapentin",
+      "price": 65,
+      "email": "gabapentin@gmail.com",
+      "gender": "Male",
+      "mobile": 9867095408,
+      "address": "Somnath"
+    },
+    {
+      "id": 10,
+      "name": "Diclofenac",
+      "price": 65,
+      "email": "diclofenac@gmail.com",
+      "gender": "Female",
+      "mobile": 8956050983,
+      "address": "Jamnagar"
+    }
+  ]
+  }

@@ -1,0 +1,40 @@
+  <app-header></app-header>
+  <button class="right" mat-raised-button (click)="logout()">Logout</button>
+  <div class="login-container">
+    <mat-card class="details-card">
+      <mat-card-header>
+        <mat-card-title>Medicine Details</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <form [formGroup]="detailsForm">
+            <mat-form-field appearance="fill" class="login-field">
+                <mat-label>Medicine Name</mat-label>
+                <input matInput formControlName="name" type="name" [(ngModel)]="itemDetails.name" placeholder="Enter your medicine name.">
+              </mat-form-field>
+              <mat-form-field appearance="fill" class="login-field">
+                <mat-label>Price</mat-label>
+                <input matInput formControlName="price" type="price" [(ngModel)]="itemDetails.price" placeholder="Enter your price.">
+              </mat-form-field>
+                <mat-form-field appearance="fill" class="login-field">
+                    <mat-label>Email</mat-label>
+                    <input matInput formControlName="email" type="email" [(ngModel)]="itemDetails.email" placeholder="Enter your email.">
+                </mat-form-field>
+                <mat-form-field appearance="fill" class="login-field">
+                    <mat-label>Gender</mat-label>
+                    <input matInput formControlName="gender" type="gender" [(ngModel)]="itemDetails.gender" placeholder="Enter your gender.">
+                </mat-form-field>
+                <mat-form-field appearance="fill" class="login-field">
+                    <mat-label>Mobile</mat-label>
+                    <input matInput formControlName="mobile" type="mobile" [(ngModel)]="itemDetails.mobile" placeholder="Enter your mobileNo.">
+                </mat-form-field>
+                <mat-form-field appearance="fill" class="login-field">
+                    <mat-label>Address</mat-label>
+                    <input matInput formControlName="address" type="address" [(ngModel)]="itemDetails.address" placeholder="Enter your address.">
+                </mat-form-field>
+                <button mat-raised-button color="primary" style="margin-inline: 40%;"  (click)="goBack()">Back</button>
+        </form>
+      </mat-card-content>
+    </mat-card>
+  </div>
+
+  <app-footer></app-footer>
